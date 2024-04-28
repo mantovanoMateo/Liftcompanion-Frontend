@@ -1,0 +1,117 @@
+
+.logInBg{
+    background-color: rgb(21, 21, );
+}
+
+.landingBg{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-top: 350px;
+
+    text-align: center;
+
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.welcomeTitle{
+    padding-top: 0px;
+}
+
+
+
+/*ESTOS AJUSTES DEBEN IR EN UNA QUERY PARA QUE SEAN EN -400PX*/
+
+.form-group{
+    background-color: rgb(40, 40, 40);
+
+    border-radius: 40px;
+    margin: auto;
+    max-width: 350px;
+    padding: 20px;
+
+    box-shadow: 2px 2px 4px black;
+}
+
+.form-control{
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid white;
+    box-shadow: none;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+.logInbtn{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background: #FF4B3A;
+
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+
+    box-shadow: 1px 1px 2px black;
+    border: none;
+    border-radius: 40px;
+    height: 58px;
+    width: 308px;
+}
+
+.logInContainer{
+    margin: auto;
+
+    padding-top: 300px;
+}
+
+.textoDeError{
+    background-color: transparent;
+    color: rgb(198, 5, 5);
+
+    font-weight: 400;
+    margin-top: 0px;
+
+    text-align: start;
+    margin-left: 45px;
+}
+
+.errorDiv{
+    background-color: #FF4B3A;
+    color: white;
+
+    max-width: 250px;
+    margin: auto;
+
+    margin-bottom: 20px;
+    padding: 5px;
+}

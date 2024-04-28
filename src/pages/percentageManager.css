@@ -1,0 +1,45 @@
+.percentageTitle{
+    font-size: 40px;
+    margin: auto;
+
+    max-width: 200px;
+
+    padding-top: 50px;
+}
+
+.percentage{
+    max-width: 80px;
+    text-align: center;
+}
+
+.perc{
+    margin-top: 0px;
+    width: 150px;
+}
+
+.percentageList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 250px;
+    height: 45px;
+
+    border-radius: 15px;
+
+    color: white;
+    font-size: 20px;
+
+    margin: 10px auto;
+
+    background-color: rgb(50, 50, 50);
+    box-shadow: 1px 1px 2px black;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.percentageContainer{
+    margin: 30px auto;
+}

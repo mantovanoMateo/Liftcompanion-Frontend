@@ -1,0 +1,49 @@
+
+.landingBg{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+
+    text-align: center;
+
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+/*ESTOS AJUSTES DEBEN IR EN UNA QUERY PARA QUE SEAN EN -400PX*/
+img{
+    max-height: 400px;
+    margin-top: 200px;
+    padding: auto;
+}
+
+button{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    background: #FF4B3A;
+
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+
+    box-shadow: 4px 4px 4px black;
+    border: none;
+    border-radius: 40px;
+    height: 58px;
+    width: 308px;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
